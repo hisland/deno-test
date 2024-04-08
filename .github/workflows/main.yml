@@ -1,4 +1,4 @@
-name: Publish
+name: TestPublish
 on:
   push:
     branches:
@@ -15,5 +15,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Publish package
+      - name: Publish to jsr
         run: npx jsr publish
