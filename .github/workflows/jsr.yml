@@ -1,4 +1,4 @@
-name: TestPublish
+name: PublishToJsr
 on:
   push:
     branches:
